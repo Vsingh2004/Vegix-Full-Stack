@@ -1,0 +1,82 @@
+.header{
+    position: relative;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(244, 221, 221, 0.455);
+    overflow: hidden;
+    padding: 4.5rem 0 0.5rem;
+}
+
+.header img{
+    width: 450px;
+    position: absolute;
+    right: 10rem;
+}
+
+.header-contents{
+    padding: 0 150px;
+}
+
+.header-contents span{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--green-color);
+    font-size: 1.3rem;
+}
+
+.header-contents h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 0.4rem 1rem;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 170px;
+}
+
+.btn .bx{
+    color: var(--bg-color);
+    border-radius: 1rem;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background: var(--light-orange-color);
+    transition: 0.2s ease;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: var(--text-color);
+}
+
+@media (max-width: 1050px){
+    .header-contents{
+        max-width: 45%
+    }
+}
+
+
+@media (max-width: 750px){
+    .header-contents{
+        max-width: 65%
+    }
+
+    .header-contents p{
+        display: none;
+    }
+
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

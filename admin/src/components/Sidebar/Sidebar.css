@@ -1,0 +1,10 @@
+ .active{
+    background-color: #fff0ed;
+    border-color: red;
+}
+
+@media (max-width: 900px) {
+    .sidebar-option p{
+        display: none;
+    }
+}

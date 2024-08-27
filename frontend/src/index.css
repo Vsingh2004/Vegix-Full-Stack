@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --green-color: #3cb815;
+  --light-green-color: #355304;
+  --orange-color: #ff7e00;
+  --light-orange-color: #f75f1d;
+  --text-color: #1a2428;
+  --bg-color: #fff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html, body{
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar{
+  width: 0.5rem;
+  background: var(--light-green-color);
+}
+
+::-webkit-scrollbar-thumb{
+  width: 0.5rem;
+  background: var(--green-color);
+  border-radius: 5rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+li{
+  list-style: none;
+}
+
+.app{
+  width: 100%;
+  margin: auto;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
