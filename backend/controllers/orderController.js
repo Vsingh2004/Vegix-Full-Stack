@@ -15,7 +15,7 @@ console.log("This is serevereereer");
 // Placing user order for frontend
 const placeOrder = async (req, res) => {
   console.log("Hitted place order");
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://vegix-full-stack-frontend.onrender.com/";
   try {
     const razorpayOrder = await razorpayInstance.orders.create({
       amount: req.body.amount * 100,
