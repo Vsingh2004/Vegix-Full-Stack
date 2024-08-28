@@ -9,6 +9,8 @@
 .food-item-image{
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    height: auto;
+    object-fit: cover;
 }
 
 .food-item-info{
@@ -55,6 +57,7 @@
 
 .food-item-img-container{
     position: relative;
+    width: 100%;
 }
 
 .food-item-img-container .add{
