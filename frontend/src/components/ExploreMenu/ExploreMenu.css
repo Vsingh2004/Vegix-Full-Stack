@@ -128,6 +128,7 @@
 
     .explore-menu{
         gap: 10px;
+        width: 95%;
     }
     .small-screen-text{
         font-size: 12px;
@@ -138,7 +139,7 @@
     }
 
     .explore-menu-list-item{
-        min-width: 60px;
+        min-width: 75px;
     }
     
     .explore-menu-list-item p{
