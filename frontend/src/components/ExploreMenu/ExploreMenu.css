@@ -107,7 +107,10 @@
     
 }
 
+
+
 @media (max-width: 550px){
+
     .explore-menu-text{
         display: none;
     }
@@ -120,11 +123,6 @@
     .explore-menu-list-item{
         min-width: 100px;
     }
-    
-}
-
-
-@media (max-width: 400px){
 
     .explore-menu{
         gap: 10px;
