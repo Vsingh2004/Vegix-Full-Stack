@@ -15,13 +15,14 @@ const Footer = () => {
                 <img src={assets.linkedin_icon} alt="" />
             </div>
         </div>
+        <div className='footer-content-bottom'>
         <div className="footer-content-center">
             <h2>COMPANY</h2>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Delivery</a></li>
+                <li><a href="">Privacy policy</a></li>
             </ul>
         </div>
         <div className="footer-content-right">
@@ -29,8 +30,10 @@ const Footer = () => {
             <ul>
                 <li><a href="">+91 7393040052</a></li>
                 <li><a href="https://www.linkedin.com/in/vssingh2004">contact@vegix.com</a></li>
-                <li><a href="https://github.com/Vsingh2004" target='blank'>author: Vaibhav Singh</a></li>
+                <li><a href="https://github.com/Vsingh2004" target='blank'>/Vaibhav Singh</a></li>
+                <li><a >Lucknow, Uttar Pardesh, 226028</a></li>
             </ul>
+        </div>
         </div>
       </div>
       <hr />

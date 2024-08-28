@@ -1,6 +1,5 @@
 .food-item{
     width: 100%;
-    margin: auto;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #00000015;
     animation: fadeIn 1s;
@@ -24,11 +23,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .food-item-name-rating p{
     font-weight: 500;
     font-size: 20px;
+    flex-basis: calc(100% - 80px); /* Adjust 80px based on the width of the image and gap */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .food-item-name-rating img{
