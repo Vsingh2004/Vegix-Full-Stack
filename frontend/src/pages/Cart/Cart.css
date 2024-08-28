@@ -118,3 +118,24 @@
         justify-content: start;
     }
 }
+
+@media (max-width: 450px) {
+    .cart-items-title{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr 0.8fr 1fr 0.5fr;
+        align-items: center;
+        color: var(--medium-green-color);
+        font-size: max(1vw, 8px)
+    }
+    
+    .cart-items-item {
+        margin: 10px 0px;
+        color: black;
+    }
+    
+    .cart-items-item img{
+        width: 40px;
+        border-radius: 5px;
+    }
+    
+}
