@@ -29,3 +29,10 @@
 .app-download-platforms img:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 450px) {
+    .app-download{
+        padding: 0;
+        margin-top: 50px;
+    }
+}
