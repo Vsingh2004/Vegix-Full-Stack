@@ -10,6 +10,7 @@ const ExploreMenu = ({category, setCategory}) => {
       <div className="explore-menu-heading">
       <h1>Explore our Menu</h1>
       <p className='explore-menu-text'>Dive into the rich and diverse flavors of India with our carefully curated menu. From the spicy tang of street-style chaats to the comforting warmth of freshly made parathas, we bring you a taste of authentic Indian fast food, crafted with love and tradition. Whether you're craving crispy samosas, indulgent vadas, or a classic masala dosa, our menu is bursting with options that cater to every palate. Explore our offerings and let each bite take you on a culinary journey through the vibrant streets of India, delivered straight to your doorstep.</p>
+      <p className='small-screen-text'>Explore the vibrant flavors of India with our curated menu, featuring spicy street-style chaats and comforting parathas, offering you a taste of authentic Indian fast food made with love and tradition.</p>
       </div>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {

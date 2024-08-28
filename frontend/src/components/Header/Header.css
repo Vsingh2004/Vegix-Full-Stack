@@ -142,3 +142,40 @@
         display: none;
     }
 }
+
+@media (max-width: 400px){
+
+    .header{
+        min-height: 300px;
+        padding: 3rem 0 0.5rem;
+    }
+
+    .header-contents{
+        padding: 0 20px;
+    }
+
+    .header-contents span{
+        font-size: 1rem;
+    }
+
+    .header-contents h1{
+        font-size: 1.5rem;
+    }
+
+    
+    .header img{
+        display: block;
+        width: 150px;
+        right: 20px;
+    }
+
+    .btn{
+        padding: 0.1rem 0.8rem;
+        max-width: 100px;
+        font-size: 10px;
+    }
+
+    .btn i{
+        width: 20px;
+    }
+}

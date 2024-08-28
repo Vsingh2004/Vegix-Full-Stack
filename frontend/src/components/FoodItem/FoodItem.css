@@ -48,7 +48,7 @@
 }
 
 .food-item-price{
-    color: tomato;
+    color: var(--light-green-color);
     font-weight: 600;
     font-size: 20px;
 }

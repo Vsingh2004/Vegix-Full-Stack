@@ -7,6 +7,7 @@
 .food-display h2{
     font-size: max(2vw, 24px);
     font-weight: 600;
+    color: var(--medium-green-color);
 }
 
 .food-display-list{
@@ -30,6 +31,10 @@
 }
 
 @media (max-width: 450px){
+    .food-display{
+        margin-top: 0px;
+    }
+
     .food-display-list{
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 20px;
