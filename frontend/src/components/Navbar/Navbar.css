@@ -228,3 +228,13 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 450px) {
+    .navbar-menu{
+        display: none;
+    }
+
+    .navbar-right{
+        gap: 30px;
+    }
+}
