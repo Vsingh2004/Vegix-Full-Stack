@@ -45,6 +45,7 @@
     display: -webkit-box;           /* Establish a flexbox container */
     -webkit-box-orient: vertical;   /* Specify vertical orientation */
     -webkit-line-clamp: 2;          /* Limit the text to 3 lines */
+    line-clamp: 2;
     overflow: hidden;               /* Hide overflowing content */
     text-overflow: ellipsis; 
 }
